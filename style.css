@@ -1,0 +1,110 @@
+body .container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 1200px;
+    margin: 0 auto;
+}
+body .container h2, body .container h3{
+	width: 100%;
+}
+.footer .container{
+	flex-direction: row;
+	margin-top: 50px;
+}
+.video~a, .videoframe~a{
+	margin: 0 auto;
+	margin-top:30px;
+	text-align: center;
+	margin-bottom: 10px;
+	background-color: green;
+	text-decoration: none;
+	color: white;
+	padding: 5px 15px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+.footer .container .left{
+	width: 50%;
+	margin-right: 30px;
+}
+.primer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.primer>div{
+	width: 50%;
+}
+.primer div img{
+	width: 80%;
+}
+.primer{
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+.primer .videoframe{
+	position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+}
+.primer .videoframe iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+}
+.photo-list{
+	display: flex;
+	align-items: stretch;
+	justify-content: space-around;
+}
+.photo-list div{
+	width: 40%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.photo-list div img{
+	width: 100%;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+form input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+form input[type='submit']{
+	margin: 0 auto;
+	margin-top:30px;
+	text-align: center;
+	margin-bottom: 10px;
+	background-color: green;
+	text-decoration: none;
+	color: white;
+	padding: 5px 15px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+form label{
+	display: flex;
+	margin-bottom: 20px;
+}
+form label input{
+	width: auto;
+	margin-bottom: 0;
+}
+.footer{
+	display: flex;
+	flex-wrap: wrap;
+}
